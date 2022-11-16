@@ -1,0 +1,26 @@
+.bottom-new {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+        justify-items:center;
+    .small-img {
+        display: flex;
+        height: 100px;
+        
+        grid-column: 1;
+    }
+    .small-new {
+        grid-column: 2;
+        h2 {
+            color: hsl(233, 8%, 79%);
+            font-weight: bold;
+        }
+    }
+    h3 {
+        font-weight: bold;
+    }
+    h3:hover {
+        color:orange;
+        cursor: pointer;
+    }
+  }
